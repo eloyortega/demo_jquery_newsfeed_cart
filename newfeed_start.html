@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+
+		<title>Document</title>
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			#feedcontainer{
+				border:1px solid #ccc;
+				width:300px;
+				background:#efefef;
+				padding:20px;
+			}
+			
+			#feed li{
+				padding:20px 0px;
+				border-bottom:1px solid #ccc;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>News Feed</h1>
+		<div id="feedcontainer">
+			<ul id="feed">
+				<li>
+					<b>title</b><br>
+					caption
+				</li>
+			</ul>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+			var data = [
+				{
+					title: 'headline 1',
+					caption: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+				},
+				{
+					title: 'Another headline',
+					caption: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				},
+				{
+					title: 'The Third Story',
+					caption: 'Ut enim ad minim veniam, quis nostrud exercitation.'
+				}
+			];
+
+		</script>
+	</body>
+</html>
